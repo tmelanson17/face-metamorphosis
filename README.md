@@ -10,7 +10,9 @@ Although most of the code dependencies come with the default cs6475 environment,
 
 Since it is not part of the standard conda packages, I will include the install command here:
 
+```
 conda install -c menpo dlib
+```
 
 Additionally, although not a code dependency, the following files are required (and included) in the main directory:
 - facial-regions.txt 
@@ -20,11 +22,15 @@ The first 2 are included. In order to get the second, download the file from <ht
 
 In order to run the code, you run the bash script as follows:
 
+```
 ./interpolate.sh <image directory name> <number of frames>
+```
 
 For my particular project, I ran the following:
 
-./interpolate.sh family 50
+```
+./interpolate.sh <image_directory> 50
+```
 
 (for the expressions side project, I changed the directory to faces)
 
