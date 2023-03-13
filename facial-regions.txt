@@ -1,0 +1,8 @@
+1,17,# Chin
+18,22,# Right eyebrow
+23,27,# Left eyebrow
+28,31,# Nose bridge
+32,36,# Nostrils
+37,42,# Right eye
+43,48,# Left eye
+49,60,# Outer lip
